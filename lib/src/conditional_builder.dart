@@ -1,16 +1,21 @@
 import 'package:flutter/material.dart';
 
+// Render a Widget based on an boolean expression.
 class ConditionalBuilder extends StatelessWidget {
-  final bool condition;
-  final Widget trueWidget;
-  final Widget falseWidget;
-
   const ConditionalBuilder({
     Key key,
     @required this.condition,
     @required this.trueWidget,
     @required this.falseWidget,
   }) : super(key: key);
+
+  final bool condition;
+
+  //Widget to be rendered when the condition its true.
+  final Widget trueWidget;
+
+  //Widget to be rendered when the condition its false.
+  final Widget falseWidget;
 
   @override
   Widget build(BuildContext context) {

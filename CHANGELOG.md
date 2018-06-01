@@ -1,3 +1,10 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.2] - 31/05/2018
 
-* TODO: Describe initial release.
+* Button wrapper with native styles for Android and iOS
+* PlatformSwitcher widget
+* ConditionalBuilder widget
+
+## [0.0.3] - 01/06/2018
+
+* BSD License
+* API Docs
