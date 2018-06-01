@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// Render a Widget based on an boolean expression.
+// Render a Widget based on a boolean expression.
 class ConditionalBuilder extends StatelessWidget {
   const ConditionalBuilder({
     Key key,

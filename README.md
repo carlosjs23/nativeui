@@ -12,7 +12,7 @@ To use the native_ui package, follow the [package installation instructions](htt
 ### Examples
 
 #### Platform Native Button
-
+Renders an iOS style button when the TargetPlatform is iOS and an Android style button when the TargetPlatform is Android. 
 ```dart
 Button(
     onPressed: _login(context),
@@ -28,7 +28,7 @@ Button(
 ```
 
 #### ConditionalBuilder
-
+Render a Widget based on a boolean expression.
 ```dart
 ConditionalBuilder(
     condition: _isLogging,
@@ -49,7 +49,7 @@ ConditionalBuilder(
 ```
 
 ### PlatformSwitcher
-
+Unique widget for switch widgets between platforms.
 ```dart
 PlatformSwitcher(
   iOSChild: iOSButton(

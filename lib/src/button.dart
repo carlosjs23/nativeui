@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:native_ui/native_ui.dart';
+import 'ios/button.dart';
 
 /// Wrapper for Android and iOS style buttons.
 ///
 /// Provides a common API for both platform buttons
 ///
 class Button extends StatelessWidget {
-  /// Creates an native-styled platform button.
+  /// Creates a native-styled platform button.
   const Button({
     Key key,
     @required this.onPressed,

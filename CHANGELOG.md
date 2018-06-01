@@ -8,3 +8,4 @@
 
 * BSD License
 * API Docs
+* Child property is now required for Button widget.
