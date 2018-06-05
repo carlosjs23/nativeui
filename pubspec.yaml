@@ -1,8 +1,8 @@
 name: native_ui
 description: NativeUI widgets for Android and iOS
-version: 0.0.3
+version: 0.0.4
 author: Carlos A. Escobar <mrescobarandres@gmail.com>
-homepage: https://github.com
+homepage: https://github.com/carlosjs23/nativeui
 
 dependencies:
   flutter:

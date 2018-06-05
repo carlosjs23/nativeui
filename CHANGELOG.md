@@ -9,3 +9,8 @@
 * BSD License
 * API Docs
 * Child property is now required for Button widget.
+
+## [0.0.4] - 05/06/2018
+
+* Tests
+* iOS FormView and FormFieldView widgets.
