@@ -3,14 +3,17 @@ import 'package:flutter/cupertino.dart';
 class FormFieldView extends StatelessWidget {
   const FormFieldView({
     Key key,
-    this.paddingTop = false,
-    this.paddingBottom = false,
-    this.children,
+    this.borderTop = false,
+    this.borderBottom = false,
+    @required this.children,
+    this.height,
+    this.contentPadding,
   }) : super(key: key);
 
-  final bool paddingTop;
-
-  final bool paddingBottom;
+  final bool borderTop;
+  final bool borderBottom;
+  final EdgeInsets contentPadding;
+  final double height;
   final List<Widget> children;
 
   @override
@@ -19,17 +22,17 @@ class FormFieldView extends StatelessWidget {
       decoration: BoxDecoration(
         color: CupertinoColors.white,
         border: Border(
-          top: paddingTop
+          top: borderTop
               ? const BorderSide(color: const Color(0xFFBCBBC1), width: 0.0)
               : BorderSide(color: CupertinoColors.white, width: 0.0),
-          bottom: paddingBottom
+          bottom: borderBottom
               ? const BorderSide(color: const Color(0xFFBCBBC1), width: 0.0)
               : BorderSide(color: CupertinoColors.white, width: 0.0),
         ),
       ),
-      height: 44.0,
+      height: height ?? 44.0,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        padding: contentPadding ?? const EdgeInsets.symmetric(horizontal: 16.0),
         child: SafeArea(
           top: false,
           bottom: false,
