@@ -1,6 +1,6 @@
 # NativeUI
 
-NativeUI widget wrappers for Android and iOS that I use on my projects.
+NativeUI widget wrappers for Android and iOS.
 
 **This package is under development, some help is always welcome.**
 
@@ -76,7 +76,7 @@ PlatformSwitcher(
 
 ## Contribution
 
-Please contribute sending [feedback or reporting a bug](https://github.com/carlosjs23/nativeui/issues/new), or sending [a pull request](https://github.com/flutter/plugins/pulls). Thank you!
+Please contribute sending [feedback or reporting a bug](https://github.com/carlosjs23/nativeui/issues/new), or sending [a pull request](https://github.com/carlosjs23/nativeui/pulls). Thank you!
 
 
 
